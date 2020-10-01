@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Open Sans Condensed;
+    color: #FFFFFF;
+    background-repeat : no-repeat;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 405px 191px 405px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+a{
+    text-decoration: none
+}
+
+
+body{
+    background-image: url(img/bg.png);
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;   
+}
+
+.menu li{
+    padding-left: 63px;
+}
+.menu li :hover{
+    color: #D1A954;
+}
+.phone{
+    border-bottom: 2px solid #D1A954;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    padding: 0 405px 0 405px;
+}
+
+.opis{
+    padding-top: 84px;
+    letter-spacing: 0.1em;
+}
+
+.theatre{
+    letter-spacing: 0.1em;
+    font-weight: bold;
+    font-size: 64px;
+    padding-bottom: 50px;
+}
+
+.about{
+    font-size: 14px;
+    font-family: Open Sans;
+    line-height: 150%;
+    padding-bottom: 50px;
+    padding-right: 106px;
+}
+
+.butt{
+    width: 180px;
+    height: 40px;
+    letter-spacing: 0.2em;
+    border: 1px solid #D1A954;
+    background-color: #D1A954;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.pics{
+    margin: 0 -320px 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+.skala{
+ padding-right: 490px;
+}
+
+
+.next{
+    margin: 6px 104px 0 0;
+}
+
+.button{
+    width: 121px;
+    height: 22px;
+    letter-spacing: 0.1em;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.arrow{
+    background-image: url("img/Arrow.png");
+    border: none;
+}
+
+.arrowb{
+    background-image: url("img/Arrow.png");
+    transform: rotate(180deg);
+    border: none;
+}
+
+
+
+.aside{
+    width: 150px; 
+    background-color: rgba(51, 51, 51, 0.75);
+    height: 970px;
+    position: absolute;
+}
+
+.rotate{
+    display: flex;
+    transform: rotate(-90deg);
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    color: #C4C4C4;
+    margin-top: 490px;
+}
+
+.space{
+    padding-right: 10px;
+}
+
+hr{
+    transform: rotate(-90deg);
+    border: none; 
+    background-color:white; 
+    color: white; 
+    height: 3px;
+    width: 80px;
+    position: absolute;
+    margin: 160px 45px 0px 35px;
+}
+
+.contacts{
+    margin: 10px 0 0 0;
+    margin: 210px 0px 0px 62px;
+    list-style: none;
+}
+
+.contacts li{
+    padding-top: 30px;
+}
+
+.fb{
+    margin-left: 5px;
+}
+
+
