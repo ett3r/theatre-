@@ -7,56 +7,35 @@
     letter-spacing: 0.1em;
 }
 
-body{
-    background-color: #333333;
+header{
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 51px 405px 191px 405px;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.1em;
+}
+a{
+    text-decoration: none
 }
 
-ul{
+.menu{
     list-style: none;
     display: flex;
     justify-content: center;   
 }
 
-li{
-    padding-left: 70px;
+.menu li{
+    padding-left: 63px;
+}
+.menu li :hover{
+    color: #D1A954;
+}
+.phone{
+    border-bottom: 2px solid #D1A954;
 }
 
-header{
-    padding: 51px 405px 191px 405px;
-    justify-content: space-between;
-    align-items: center;
+body{
+    background-color:  rgba(51, 51, 51, 1);
 }
-
-.head_font{
-    font-weight: bold;
-    font-size: 24px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    padding: 20px 0px 70px 0px;
-}
-
-.theatre{
-    display: flex;
-    justify-content: center;
-    font-size: 48px;
-}
-
-.logo{
-    display: flex;
-    flex-direction: row;
-    padding-left: 410px;
-}
-
-.letter{
-    padding-left: 10px;
-}
-
-
-
-
-
- 
